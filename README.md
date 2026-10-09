@@ -46,3 +46,21 @@ individually via `scripts/run_selfplay.py` and `scripts/probe_retrieval_v2.py`.
 
 The pipeline expects a frozen-model gateway, a local code embedder, and the
 bug/seed datasets; these are not distributed with the repository.
+## Citation
+
+This code accompanies the master's thesis *Memetic Code Repair: Evolving
+Debugging Knowledge through Self-Play* (University College London, 2026). If you
+use it, please cite:
+
+```bibtex
+@mastersthesis{tepe2026memetic,
+  author = {Ugur Tepe},
+  title  = {Memetic Code Repair: Evolving Debugging Knowledge through Self-Play},
+  school = {University College London},
+  year   = {2026}
+}
+```
+
+## License
+
+Released under the MIT License. See [LICENSE](LICENSE) for details.
