@@ -1,7 +1,7 @@
 # memetic
 
-Generator/fixer self-play with memory over a frozen frontier model (no weight
-training). Two roles co-evolve against a shared, growing memory: a **generator**
+Generator/fixer self-play with memory over frozen frontier models (no weight
+training). Two roles co-evolve against 2 respective growing memory mechanisms: a **generator**
 that proposes bugs guided by a `SkillBank` curriculum, and a **fixer** that
 repairs them with retrieval-augmented advice from a `RepairBank`. Neither model's
 weights are updated; the only learning signal flows through the two banks and the
